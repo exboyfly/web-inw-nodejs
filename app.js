@@ -1,12 +1,15 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.port || 3000;
+
+let PORT = process.env.PORT || 5000;
+
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.send("Hello World, NodeJS");
 });
 
 app.listen(PORT, () => {
-    console.log("Port Listening to:" + PORT);
+    console.log("Port Listening to: " + PORT);
 });
 

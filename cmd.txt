@@ -1,0 +1,21 @@
+Nodejs v16.14.2 LTS
+Git url: https://github.com/exboyfly/web-inw-nodejs
+Git: https://git-scm.com/
+
+makedir: mkdir web-inw-nodejs
+
+cd web-inw-nodejs
+
+- npm init --y
+- npm install express
+- npm install nodemon
+
+สร้าง ignore file
+- npx gitignore node
+
+วิธีใช้ Git เบื้องต้น
+git status
+git add . || git add ตามด้วยชื่อไฟล์
+git commit -m "comment"
+git pull origin xxx(ชื่อ branch)
+git push orgin xxx(ชื่อ bracnh)
